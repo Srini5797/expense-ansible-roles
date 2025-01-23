@@ -1,5 +1,5 @@
 - name: configuring mysql server
-  hosts: mysql
+  hosts: mysql.naishikacharan.icu
   become: yes
   roles:
     - mysql
